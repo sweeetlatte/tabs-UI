@@ -11,7 +11,7 @@ body {
 
 body > div {
     margin: 15% auto 0;
-    max-width: 720px;
+    max-width: 500px;
 }
 
 .tabs {
@@ -26,7 +26,7 @@ body > div {
     width: 0;
     height: 6px;
     border-radius: 15px;
-    background-color: #c23564;
+    background-color: #966A57;
     transition: all 0.2s ease;
 }
 
@@ -35,7 +35,7 @@ body > div {
     padding: 16px 20px 11px 20px;
     font-size: 20px;
     text-align: center;
-    color: #c23564;
+    color: #966A57;
     background-color: #fff;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -69,6 +69,7 @@ body > div {
 .tab-pane {
     color: #333;
     display: none;
+    text-align: justify;
 }
 
 .tab-pane.active {
